@@ -82,12 +82,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😶‍🌫 *I'm A Flicks Robot Management Group [🥜](https://telegra.ph/file/98d3f13f27f77695b925e.jpg)
----------------------------------------------------------
+😶‍🌫 I'm A Flicks The Best Management Groups [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+────────────────────────
 × *Flicks Bot Uptime:* `{}`
-× `{}` *Users Start, Across In* `{}` *Chats*
----------------------------------------------------------
-📚 Hit /help To See Available Commands.
+× `{}` *Users, Across* `{}` *Chats.*
+────────────────────────
+📚 Hit /help To See My Available Commands.
 """
 
 buttons = [
@@ -95,14 +95,14 @@ buttons = [
         InlineKeyboardButton(text="About Flicks Robot", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Help", callback_data="help_back"),
+        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
             text="Inline​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Add Flicks To Your Group", url="t.me/flicksmusicbot?startgroup=new"),
+            text="Add Flickd To Your Group", url="t.me/Flicksmusicbot?startgroup=new"),
     ],
 ]
 
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Emiko robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Flicks Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -360,14 +360,14 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="🙇🏻 I'm *Flicks*, A Powerful Group Management Bot Built To Help You Manage Your Group Easily."
+            text="๏ I'm *Flicks*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Flicks's licensed under the GNU General Public License v3.0_"
+            "\n\n_Emiko's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for Flicks Robot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -435,8 +435,8 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            text="*๏ Flicks support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Flicks.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -455,7 +455,7 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Flicks</b>\n"
+            text=f"<b>๏ Credis For Flicks</b>\n"
             f"\nHere Developers Making The Flicks Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -482,7 +482,7 @@ def Source_about_callback(update, context):
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
             "\n • `/end` - For end the playback."
-            "\n • `/music <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
+            "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
             "\n\n๏ Command for all members."
             "\n • `/play` <query /reply audio> - Playing music via YouTube."
             "\n • `/playlist` - To playing a playlist of groups or your personal playlist",
@@ -782,10 +782,10 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""[Flicks Robot](https://t.me/flicksrobotsupport/2702) Started!...\nThanks To My Owner [Skyzo](t.me/xflskyzo)
+                f"""**🙇🏻 Flicks Robot [Started](https://t.me/crtsyy/44)**\n**👨🏻‍💻 Thanks To My Owner [Skyzo](t.me/xflskyzo)**
 
 **🐉 Python:** `{memek()}`
-**📚 Telegram Library:** `V{peler}`""",
+**📚 Telegram Library:** `v{peler}`""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
