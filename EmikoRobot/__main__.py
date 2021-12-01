@@ -83,10 +83,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 😶‍🌫 *I'm A Flicks Robot Management Group [🥜](https://telegra.ph/file/98d3f13f27f77695b925e.jpg)
-*---------------------------------------------------------*
+---------------------------------------------------------
 × *Flicks Bot Uptime:* `{}`
 × `{}` *Users Start, Across In* `{}` *Chats*
-*---------------------------------------------------------*
+---------------------------------------------------------
 📚 Hit /help To See Available Commands.
 """
 
