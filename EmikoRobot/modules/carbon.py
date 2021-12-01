@@ -26,24 +26,29 @@ async def carbon_func(_, message):
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
-    await message.reply_text(
-        f"""✨ **Hey I'm Emiko Robot** 
+    await message.reply_photo(
+        photo="https://telegra.ph/file/98d3f13f27f77695b925e.jpg",
+        caption=f"""✨ **Hey I'm Flicks Robot** 
 
-**Owner repo : [sena-ex](https://t.me/excrybaby)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**╭┈╾────────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦**
+**┊┊    ⟨ 😶‍🌫 INFORMATION BOT 😶‍🌫 ⟩**
+**┊┊╾────────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦**
+**┊┊╾───────────••───────╮
+**┊┊👨🏻‍💻 Owner : [Skyzo](t.me/XFLSkyzo)**
+**┊┊🗃️ Ver Pyrogram :** `{z}`
+**┊┊📚 Features  : Music, Manager**
+**┊┊🐉 Ver Python :** `{y()}`
+**╰┈╾──────••────────────╯**
 
-**Create your own with click button bellow.**
+**Click Button Here For More Information.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/kennedy-ex/emikorobot"), 
+                        "Github", url="https://github.com/ridho17-ind"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/emikosupport")
+                        "Support", url="https://t.me/flicksrobotsupport")
                 ]
             ]
         ),
