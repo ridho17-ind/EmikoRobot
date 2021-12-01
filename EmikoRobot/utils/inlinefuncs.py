@@ -97,12 +97,12 @@ async def inline_help_func(__HELP__):
     )
     answerss = [
         InlineQueryResultArticle(
-            title="Inline Commands",
+            title="Flicks Inline",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(
-                "**__Click A Button To Get Started.__**"
+                "**Click A Flicks Button To Get Started.**"
             ),
-            thumb_url="https://telegra.ph/file/1b8f08dba704a5eb2bb09.jpg",
+            thumb_url="https://telegra.ph/file/a3c602ed800d2e84e667e.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -115,14 +115,14 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/EmiexRobot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/FlicksMusicBot"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[Emiko Robot ❤️](https://t.me/emikosupport):**
+**[Flicks Robot](https://t.me/flicksrobotsupport):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
