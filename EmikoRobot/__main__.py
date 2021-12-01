@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} ◡̈⃝*
+*Hello {} !*
 😶‍🌫 *I'm A Flicks Robot Management Group [🥜](https://telegra.ph/file/98d3f13f27f77695b925e.jpg)
 *---------------------------------------------------------*
 *× Flicks Bot Uptime:* `{}`
@@ -368,7 +368,7 @@ def emiko_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_Flicks's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Flicks obot.",
+            "\n\n Click on button bellow to get basic help for Flicks Robot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
