@@ -27,7 +27,7 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/98d3f13f27f77695b925e.jpg",
+        photo="https://telegra.ph/file/98d3f13f27f77695b925e.jpg"
         caption=f"""✨ **Hey I'm Flicks Robot** 
 
 **╭┈╾────────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦**
