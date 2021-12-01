@@ -782,10 +782,10 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**[Flicks Robot](https://t.me/flicksrobotsupport/2702) Started!...**\n**Thanks To My Owner [Skyzo](t.me/xflskyzo)**
+                f"""[Flicks Robot](https://t.me/flicksrobotsupport/2702) Started!...\nThanks To My Owner [Skyzo](t.me/xflskyzo)
 
-**Python:** `{memek()}`
-**Telegram Library:** `v{peler}`""",
+**🐉 Python:** `{memek()}`
+**📚 Telegram Library:** `V{peler}`""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
