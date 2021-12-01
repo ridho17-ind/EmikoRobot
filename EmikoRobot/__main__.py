@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😶‍🌫 I'm A Flicks The Best Management Groups [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+😶‍🌫 I'm A Flicks The Best Management Groups [✨](https://telegra.ph/file/98d3f13f27f77695b925e.jpg)
 ────────────────────────
 × *Flicks Bot Uptime:* `{}`
 × `{}` *Users, Across* `{}` *Chats.*
@@ -97,7 +97,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Inline​​", switch_inline_query_current_chat=""
+            text="Try Inline​​", switch_inline_query_current_chat=""
         ),
     ],
     [
