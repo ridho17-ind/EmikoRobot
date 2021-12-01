@@ -48,6 +48,5 @@ async def repo(_, message):
                         "Support", url="https://t.me/flicksrobotsupport")
                 ]
             ]
-        ),
-        disable_web_page_preview=True
+        )
     )
