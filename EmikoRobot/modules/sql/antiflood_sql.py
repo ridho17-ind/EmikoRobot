@@ -1,6 +1,6 @@
 import threading
 
-from sqlalchemy import String, Column, BigInteger, Intereger, UnicodeText
+from sqlalchemy import String, Column, BigInteger, Integer, UnicodeText
 
 from EmikoRobot.modules.sql import SESSION, BASE
 
