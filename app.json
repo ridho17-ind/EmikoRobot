@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2088106582"
+         "value": "1705562427"
      },
 
       "STRING_SESSION": {
@@ -69,22 +69,22 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "emiexrobot"
+         "value": "FlicksMusicBot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "2063345281"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "excrybaby"
+         "value": "xflskyzo"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "emikosupport"
+         "value": "flicksrobotsupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -102,12 +102,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001769140038"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001769140038"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -129,7 +129,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "1705562427"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -201,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "t.me/SkyzoChatBot?start=new"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
